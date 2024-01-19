@@ -10,7 +10,10 @@ import { NewComponent } from './components/new-component/new-component.component
   template: `
   <!-- <router-outlet></router-outlet> -->
   <h1>Curso de Angular</h1>
-  <app-new-component />
+  <div class="theme-red">
+    <app-new-component />
+  </div>
+
   `
 })
 export class AppComponent {
