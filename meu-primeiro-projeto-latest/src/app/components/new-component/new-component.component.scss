@@ -1,3 +1,20 @@
 // h2{
 //     color: pink;
 // }
+
+
+:host{
+    h2{
+        background: red;
+    }
+}
+
+/*
+:host
+
+é usado para aplicar estilos diretamente ao componente em si, em vez de seus elementos filhos.
+
+você pode definir estilos específicos para o componente raiz
+
+*/
+
